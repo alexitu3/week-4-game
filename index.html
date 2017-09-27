@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+  <div id="contsent-game-data">
+    <div id="wins"></div>
+    <div id="losses"></div>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn1"><img src="http://sensingangels.com/wp-content/uploads/2015/11/Popular-crystals.jpg"></button>
+    <button class="btn btn2"><img src="https://www.lifejacks.com/wp-content/uploads/2016/05/Amethyst-crystal.jpg"></button>
+    <button class="btn btn3"><img src="https://previews.123rf.com/images/bwylezich/bwylezich1602/bwylezich160201213/52955689-bismuth-crystal-isolated-on-white-background-Stock-Photo.jpg"></button>
+    <button class="btn btn4"><img src="https://i.pinimg.com/736x/1f/f0/73/1ff07321cb985b7cea439c90bcf4559b--druzy-quartz-quartz-crystal.jpg"></button>
+  </div>
+  <div id="current-game-data">
+    <div id="result"></div>
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
